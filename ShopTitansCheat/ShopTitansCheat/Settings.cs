@@ -9,12 +9,12 @@ namespace ShopTitansCheat
         internal class RegularCrafting
         {
             internal static bool ThisIsATempBool = false;
-            internal static bool DoCrafting = false;
-            internal static bool CraftRandomItems = false;
+            internal static bool DoCrafting = true;
+            internal static bool CraftRandomItems = true;
             internal static int CraftRandomStuffValue = 0;
-            internal static bool CraftBookmarked = false;
-            internal static bool IncludeRune = false;
-            internal static bool IncludeElements = false;
+            internal static bool CraftBookmarked = true;
+            internal static bool IncludeRune = true;
+            internal static bool IncludeElements = true;
             internal static List<Equipment> CraftingEquipmentsList = new List<Equipment>();
         }
 
@@ -36,20 +36,20 @@ namespace ShopTitansCheat
 
         internal class Misc
         {
-            internal static bool AutoFinishCraft = false;
+            internal static bool AutoFinishCraft = true;
             internal static bool RemoveWindowPopup = false;
-            internal static bool UseEnergy = false;
+            internal static bool UseEnergy = true;
             internal static float UseEnergyAmount = 0;
         }
 
         internal class AutoSell
         {
-            internal static bool AutoSellToNpc = false;
-            internal static bool SmallTalk = false;
+            internal static bool AutoSellToNpc = true;
+            internal static bool SmallTalk = true;
             internal static bool Refuse = false;
             internal static bool SurchargeDiscount = false;
             internal static bool Suggest = false;
-            internal static bool BuyFromNpc = false;
+            internal static bool BuyFromNpc = true;
             internal static long SurchargeAmount = 0;
             internal static long DiscountAmount = 0;
         }
